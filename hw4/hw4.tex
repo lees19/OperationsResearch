@@ -1,0 +1,55 @@
+\documentclass[12pt,english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\makeatletter
+\usepackage[letterpaper,body={6.5in,9in}, head=34pt, foot=70pt]{geometry}
+\usepackage{fancyhdr}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\pagestyle{fancy}
+\headheight 35pt
+
+\rhead{Fall 2021}
+\chead{}
+\lhead{MATH 3700 Operations Research}
+\renewcommand{\footrulewidth}{0.4pt}
+\rfoot{\thepage}
+\cfoot{}
+\lfoot{Wentworth Institute of Technology}
+
+\usepackage{multicol}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\begin{eqnarray*}
+    min \quad p = 2y_1 + 5y_2\\
+    s.t. \quad 6y_1 + 3y_2 \geq 6\\
+    -3y_1 + 4y_2 \geq 3 \\
+    y_1 + y_2 \geq 0 \\
+    y_1 \leq 0\\
+    y_2 \leq 0 
+\end{eqnarray*}
+    
+\begin{eqnarray*}
+    min \quad p = 5y_1 + 6y_2 \\
+    s.t. \quad 2y_1 + 3y_2 = 1\\
+    y_1 - y_2 = 1\\
+    y_1 \ unrestricted, y_2 \ unrestricted
+\end{eqnarray*}
+
+\begin{eqnarray*}
+    min \ -3y_1+4y_2+6y_3 \\
+    s.t. \ -y_1 -y_2+y_3\geq -1\\
+    -2y_1 + 2y_2 + 7y_3 \geq -1\\
+    y_1, y_2, y_3 \geq 0
+\end{eqnarray*}
+
+\end{document}
